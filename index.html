@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Husam | Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+
+
+
+  <!-- ☀️🌙 زر الوضع الليلي -->
+  <aside class="sidebar left">
+  <div class="profile">
+    <img src="assets/images/round.jpg" alt="Profile Picture" />
+    <h1 class="signature">Husam</h1>
+  </div>
+  <nav class="menu">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- زر الوضع الليلي هنا -->
+  <div class="theme-toggle-container">
+    <i class="bx bx-moon" id="theme-icon"></i>
+  </div>
+  <div class="translate-toggle-container">
+  <button id="translate-btn">العربية</button>
+</div>
+
+  <div class="footer">
+    <p>© 2025 Husam</p>
+  </div>
+</aside>
+
+  <!-- 📱 زر القائمة للشاشات الصغيرة -->
+  <i class="bx bx-menu" id="menu-toggle"></i>
+
+
+  <!-- 💻 المحتوى الرئيسي الكامل -->
+  <main class="main-content">
+    <!-- 🏠 Hero Section -->
+    <section id="home" class="hero-section">
+      <img src="assets/images/hero.jpg" alt="Hero Background" class="hero-bg" />
+      <div class="info-box">
+        <h2 class="name">Husam mqdas</h2>
+        <p class="job">Front-End Developer</p>
+        <ul class="contact">
+          <li><i class="bx bx-phone"></i> +970 59 753 4955</li>
+          <li><i class="bx bx-envelope"></i> hmqdas@gmail.com</li>
+          <li><i class="bx bxl-twitter"></i> @husam-mqdas</li>
+          <li><i class="bx bx-map"></i> Gaza, Palestine</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 👤 About Section -->
+    <section id="about" class="section about-section">
+      <h4 class="sub-title">About Me</h4>
+      <h2 class="title">Husam Mqdas</h2>
+      <p>
+        I’m a frontend developer with more than 4 years of experience.
+        If you need to receive responsive, pixel perfect and cross-browser websites — I’m the developer you’re looking for.
+      </p>
+      <div class="about-grid">
+        <div class="left-info">
+          <p><strong>Birthday:</strong> 24 Dec 2004</p>
+          <p><strong>Website:</strong> www.husam-mqdas.com</p>
+          <p><strong>Phone:</strong> +970 59 753 4955</p>
+          <p><strong>Study:</strong> Islamic University of Gaza</p>
+        </div>
+        <div class="right-info">
+          <p><strong>Degree:</strong> Bachelor's</p>
+          <p><strong>Mail:</strong> hmqdas@gmail.com</p>
+          <p><strong>LinkedIn:</strong> @husam-mqdas</p>
+          <p><strong>Freelance:</strong> Available</p>
+        </div>
+      </div>
+      <div class="about-img">
+        <img src="assets/images/hero.jpg" alt="husam mqdas" />
+      </div>
+      <a href="#" class="btn download-btn">Download CV</a>
+    </section>
+
+    <!-- 🛠 Services -->
+<section id="services" class="section services-section" data-aos="fade-up">
+  <h4 class="sub-title">What I Do</h4>
+  <h2 class="title">Services</h2>
+  <div class="services-grid">
+    <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+      <i class="bx bx-laptop icon"></i>
+      <h3>Website</h3>
+      <p>Pixel perfect websites tailored to your business needs.</p>
+      <div class="number">01</div>
+    </div>
+    <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+      <i class="bx bx-bar-chart-alt icon"></i>
+      <h3>SEO Marketing</h3>
+      <p>Boosting your site visibility with effective strategies.</p>
+      <div class="number">02</div>
+    </div>
+    <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+      <i class="bx bx-cart icon"></i>
+      <h3>E-commerce</h3>
+      <p>Full online store creation and payment integration.</p>
+      <div class="number">03</div>
+    </div>
+    <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+      <i class="bx bx-layout icon"></i>
+      <h3>Graphic Design</h3>
+      <p>Creating engaging visuals for web and social platforms.</p>
+      <div class="number">04</div>
+    </div>
+    <div class="service-card" data-aos="zoom-in" data-aos-delay="500">
+      <i class="bx bx-target-lock icon"></i>
+      <h3>Digital Marketing</h3>
+      <p>Planning targeted campaigns that drive results.</p>
+      <div class="number">05</div>
+    </div>
+    <div class="service-card" data-aos="zoom-in" data-aos-delay="600">
+      <i class="bx bx-message-square-dots icon"></i>
+      <h3>Social Media</h3>
+      <p>Managing content across all platforms effectively.</p>
+      <div class="number">06</div>
+    </div>
+  </div>
+</section>
+
+<!-- 💼 Work Section -->
+<section id="work" class="section work-section" data-aos="fade-up">
+  <h4 class="sub-title" data-aos="fade-right">Recent Work Completed</h4>
+  <h2 class="title" data-aos="fade-left" data-aos-delay="100">Work Showcase</h2>
+  <div class="projects-grid">
+    <div class="project-card" data-aos="flip-left" data-aos-delay="100" data-aos-duration="800">
+      <img src="assets/images/work/01.jpg" alt="Work 1" />
+      <div class="info">
+        <h3>Work P.01</h3>
+        <p>Book Design, Adobe XD, Photoshop</p>
+      </div>
+    </div>
+
+    <div class="project-card" data-aos="flip-left" data-aos-delay="200" data-aos-duration="800">
+      <img src="assets/images/work/02.jpg" alt="Work 2" />
+      <div class="info">
+        <h3>Work P.02</h3>
+        <p>Illustrator, Figma</p>
+      </div>
+    </div>
+
+    <div class="project-card" data-aos="flip-left" data-aos-delay="300" data-aos-duration="800">
+      <img src="assets/images/work/03.jpg" alt="Work 3" />
+      <div class="info">
+        <h3>Work P.03</h3>
+        <p>Branding, Visual Identity</p>
+      </div>
+    </div>
+
+    <div class="project-card" data-aos="flip-left" data-aos-delay="400" data-aos-duration="800">
+      <img src="assets/images/work/04.jpg" alt="Work 4" />
+      <div class="info">
+        <h3>Work P.04</h3>
+        <p>App Design, UI/UX</p>
+      </div>
+    </div>
+
+    <div class="project-card" data-aos="flip-left" data-aos-delay="500" data-aos-duration="800">
+      <img src="assets/images/work/05.jpg" alt="Work 5" />
+      <div class="info">
+        <h3>Work P.05</h3>
+        <p>Illustrator, Figma</p>
+      </div>
+    </div>
+
+    <div class="project-card" data-aos="flip-left" data-aos-delay="600" data-aos-duration="800">
+      <img src="assets/images/work/06.jpg" alt="Work 6" />
+      <div class="info">
+        <h3>Work P.06</h3>
+        <p>Illustrator, Figma</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+   <!-- 📰 Blog -->
+<section id="blog" class="section blog-section" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="100" data-aos-once="true">
+  <h4 class="sub-title" data-aos="fade-down" data-aos-delay="100">My Blog</h4>
+  <h2 class="title" data-aos="fade-down" data-aos-delay="200">Current News</h2>
+  <div class="blog-grid">
+    <div class="blog-post" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="800">
+      <img src="assets/images/blog/01.jpg" alt="Blog 1">
+      <div class="content">
+        <p class="meta">Web Design – 18 Dec, 2021</p>
+        <p class="title">Developer Burnout Symptoms</p>
+      </div>
+    </div>
+    <div class="blog-post" data-aos="zoom-out" data-aos-delay="400" data-aos-duration="800">
+      <img src="assets/images/blog/02.jpg" alt="Blog 2">
+      <div class="content">
+        <p class="meta">Social Media – 18 Dec, 2021</p>
+        <p class="title">From Perfect To Positive</p>
+      </div>
+    </div>
+    <div class="blog-post" data-aos="zoom-out" data-aos-delay="500" data-aos-duration="800">
+      <img src="assets/images/blog/03.jpg" alt="Blog 3">
+      <div class="content">
+        <p class="meta">Digital Strategy – 18 Dec, 2021</p>
+        <p class="title">Creative Collaboration Future</p>
+      </div>
+    </div>
+    <div class="blog-post" data-aos="zoom-out" data-aos-delay="600" data-aos-duration="800">
+      <img src="assets/images/blog/04.jpg" alt="Blog 4">
+      <div class="content">
+        <p class="meta">Social Media – 18 Dec, 2021</p>
+        <p class="title">From Perfect To Positive</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- 📩 Contact -->
+    <section id="contact" class="section contact-section">
+      <h4 class="sub-title">Get In Touch</h4>
+      <h2 class="title">Contact Me</h2>
+      <p>Let’s Create The Future</p>
+      <div class="contact-info">
+        <ul class="contact">
+          <li><i class="bx bx-phone"></i> +970 59 753 4955</li>
+          <li><i class="bx bx-envelope"></i> hmqdas@gmail.com</li>
+          <li><i class="bx bxl-twitter"></i> @husam-mqdas</li>
+          <li><i class="bx bx-map"></i> Gaza, Palestine</li>
+        </ul>
+      </div>
+      <div class="contact-form">
+        <form>
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <textarea rows="4" placeholder="Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      
+    </section>
+  </main>
+
+  <!-- ⬆️ زر الصعود للأعلى -->
+  <button id="scrollToTop"><i class="bx bx-up-arrow-alt"></i></button>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true, // تجعل الحركة تعمل مرة واحدة فقط (للاحتراف)
+    duration: 800, // مدة الحركة الافتراضية (بالملي ثانية)
+    offset: 100 // المسافة من أسفل الشاشة لبدء الحركة
+  });
+</script>
+
+</body>
+
+
+<style>
+
+/* عند الإشارة بالماوس */
+.service-card:hover {
+  background-color: #a2653a; /* لون عند الإشارة */
+  color: #fff;
+  transform: translateY(-5px); /* ارتفاع بسيط */
+}
+/* الوضع العادي */
+.services-section {
+  background-color: #f7f0ea;
+  padding: 60px 20px;
+}
+
+/* الوضع الليلي */
+.dark-mode .services-section {
+  background-color: #1a1a1a; /* أو لون داكن يناسب التصميم */
+}
+
+
+
+/* تغيير لون النصوص والأيقونات داخل البطاقة عند الإشارة */
+.service-card:hover .icon,
+.service-card:hover h3,
+.service-card:hover p,
+.service-card:hover .number {
+  color: #fff;
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.project-card img {
+  width: 100%;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.project-card .info {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(162, 101, 58, 0.9); /* اللون البني مع شفافية */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: center;
+  padding: 20px;
+}
+
+.project-card:hover .info {
+  opacity: 1;
+}
+
+.project-card:hover img {
+  transform: scale(1.1); /* تكبير بسيط للصورة عند الإشارة */
+}
+
+.blog-post {
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+    background-color: var(--card-bg);
+  color: var(--text-color);
+}
+
+
+.blog-post img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.blog-post:hover img {
+  transform: scale(1.1); /* تكبير بنسبة 10% */
+}
+
+.blog-section {
+  background-color: var(--blog-bg); /* لون بيج مشابه للصورة */
+  padding: 60px 20px;
+}
+
+/* الوضع الليلي */
+.dark-mode .blog-section {
+  background-color: #1a1a1a; /* أو لون داكن يناسب التصميم */
+}
+
+</style>
+</html>
